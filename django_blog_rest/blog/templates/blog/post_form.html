@@ -1,0 +1,23 @@
+{% extends 'blog/base.html' %}
+{% load custom_tags %}
+
+{% block title %}
+    <h1>New post</h1>
+{% endblock %}
+
+{% block content %}
+
+    {% if form %}
+        <form  method="post">
+        {% csrf_token %}
+            <table>
+                {{ form.as_table }}
+            </table>
+        <input  type="submit"  value="Submit"  />
+        </form>
+    {% else %}
+        <h2>Form not available. </h2>
+    {% endif %}
+
+{% endblock %}
+
