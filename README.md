@@ -5,6 +5,7 @@
     - https://www.techiediaries.com/django-crud-generic-views/  
 
 #### Get started:
+- Install 'node' and 'npm'
 - Create a virtualenv  
 - Clone the  project
 - Run:  
@@ -14,8 +15,8 @@
 -- ./manage.py createsuperuser  
 - Run the project  
 -- ./manage.py runserver
-- Login to /admin
-- Display home page
+- Go to /frontend/gui folder
+- Rum 'npm start'
 
 TODO's:
 - Once this is just a proof of concept, several things were left out:  
