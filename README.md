@@ -3,6 +3,8 @@
 #### Based on tutorials:  
 	- https://scotch.io/@CleverProgrammer/how-to-make-a-django-blog-app  	
     - https://www.techiediaries.com/django-crud-generic-views/  
+    - https://youtu.be/uZgRbnIsgrA
+    - https://youtu.be/w-QJiQwlZzU
 
 #### Get started:
 - Install 'node' and 'npm'
@@ -23,3 +25,4 @@ TODO's:
 -- Using a proper database engine, instead of 'sqlite'.  
 -- Creating proper separated environment configs to DEV and deploy, in order to protect access credentials and project SECRET_KEY.  
 
+37:09
