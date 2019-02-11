@@ -25,7 +25,7 @@ SECRET_KEY = 'z-ytg#%a7c&a0knwm6(p(hurphu*h-d!0j079g_r6m@fwh1d1_'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -129,5 +129,11 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
+REST_FRAMEWORK = {
+    'DEFAULT_PERMISSION_CLASSES': (
+        # 'rest_framework.permissions.IsAuthenticatedOrReadOnly',
+        'rest_framework.permissions.AllowAny',
+    )
+}
 CORS_ORIGIN_ALLOW_ALL = True
 

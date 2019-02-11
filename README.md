@@ -5,6 +5,9 @@
     - https://www.techiediaries.com/django-crud-generic-views/  
     - https://youtu.be/uZgRbnIsgrA
     - https://youtu.be/w-QJiQwlZzU
+    - And the previous project:
+    -- https://github.com/rtavares/django_crud_blog
+    
 
 #### Get started:
 - Install 'node' and 'npm'
