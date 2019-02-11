@@ -1,16 +1,14 @@
-from rest_framework.generics import ListAPIView, RetrieveAPIView
+from rest_framework import viewsets
 
 from ..models import Post
 from .serializers import PostSerializer
 
 
-class PostListView(ListAPIView):
-    queryset = Post.objects.all()
+class PostViewSet(viewsets.ModelViewSet):
+    """
+    A viewset for viewing and editing Post instances.
+    """
     serializer_class = PostSerializer
-
-class PostDetailView(RetrieveAPIView):
     queryset = Post.objects.all()
-    serializer_class = PostSerializer
-
 
 
